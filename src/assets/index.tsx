@@ -20,8 +20,9 @@ export { default as OJ } from './avi.svg';
 export { default as userIcon } from './user-fill.svg';
 export { default as bug } from './bug-2-line.svg';
 export { default as settings } from './settings-3-line.svg';
-export { default as integrations } from './squares.png'
-export { default as signout } from './logout-box-r-line.svg'
-export { default as referAndEarn } from './briefcase-line.svg'
-export { default as purchaseHistory } from './icons8-purchase-order-80.png'
-export { default as switchUser } from './icons8-switch-user-50.png'
+export { default as integrations } from './squares.png';
+export { default as signout } from './logout-box-r-line.svg';
+export { default as referAndEarn } from './gift.png';
+export { default as purchaseHistory } from './icons8-purchase-order-80.png';
+export { default as switchUser } from './icons8-switch-user-50.png';
+export {default as switchAccount} from './switch-userProf.png';
