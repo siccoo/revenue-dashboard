@@ -1,4 +1,4 @@
-import { link, store, media, invocing } from "./../../assets";
+import { link, store, media, invocing } from "../../assets";
 
 export const dropItems = [
     {img: link, title: 'Link in Bio', subtitle: 'Manage your Link in Bio'},
