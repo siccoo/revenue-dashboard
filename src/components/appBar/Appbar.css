@@ -1,8 +1,0 @@
-.icon {
-    filter: grayscale(100%);
-    transition: filter 0.3s ease-in-out;
-}
-
-.icon:hover {
-    filter: grayscale(0%);
-}
