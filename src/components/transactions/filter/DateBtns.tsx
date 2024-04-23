@@ -1,4 +1,3 @@
-import React from 'react'
 import DateBtn from './DateBtn'
 import { TFilter } from '../../../types'
 

@@ -1,10 +1,9 @@
-import React from 'react'
 import { depositCircle, withdrawalCircle } from '../assets'
 import Text from '../../ui/text'
-import colors from '../../../utils/colors'
+import colors from '../../../helperFunctions/colors'
 import { TTransaction } from '../../../types'
-import { formatDate } from '../../../utils/formatDate'
-import { capitalizeFirstLetter } from '../../../utils/capitalize'
+import { formatDate } from '../../../helperFunctions/formatDate'
+import { capitalizeFirstLetter } from '../../../helperFunctions/capitalize'
 
 interface IProps {
     data: TTransaction

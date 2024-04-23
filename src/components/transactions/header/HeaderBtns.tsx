@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Button from '../../ui/button'
 import { download, expand_more } from '../assets'
 import Text from '../../ui/text'
-import colors from '../../../utils/colors'
+import colors from '../../../helperFunctions/colors'
 import Filter from '../filter'
 import { TFilter } from '../../../types'
 

@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from 'react'
 import Button from '../../ui/button'
 import Text from '../../ui/text'
-import colors from '../../../utils/colors'
+import colors from '../../../helperFunctions/colors'
 import { TFilter } from '../../../types'
 
 interface IProps {
