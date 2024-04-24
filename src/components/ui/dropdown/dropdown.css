@@ -1,0 +1,35 @@
+.custom-dropdown {
+    position: relative;
+    /* width: 200px; */
+  }
+  
+  .dropdown-header {
+    border: 1px solid #ccc;
+    padding: 9px;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  .dropdown-header.open {
+    border-bottom: 1px solid #ccc; /* Highlight the header when the dropdown is open */
+  }
+  
+  .dropdown-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  .dropdown-option {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .dropdown-option:hover {
+    background-color: #f2f2f2; /* Highlight the option on hover */
+  }
+  
