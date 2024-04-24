@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar from '../components/navbar'
 import { useGetUser } from '../api/hooks/useGetUser'
 import { useGetWallet } from '../api/hooks/useGetWallet'
