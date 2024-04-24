@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { navMenu } from './utils'
 import Button from '../ui/button'
 import AppBarDrop from '../appBar/AppBarDrop'

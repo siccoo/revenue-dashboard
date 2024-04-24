@@ -1,4 +1,3 @@
-import React from 'react'
 import NavbarMenu from './NavbarMenu'
 import { logo } from '../../assets'
 import NavIcons from './NavIcons'

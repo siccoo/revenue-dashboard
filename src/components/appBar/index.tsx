@@ -1,4 +1,3 @@
-import React from 'react'
 import { invocing, link, media, store } from './assets'
 import { Tooltip } from 'react-tooltip'
 import './Appbar.css'

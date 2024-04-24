@@ -1,5 +1,5 @@
 import { TNavMenu, TProfileItem, TUser } from "../../types";
-import { bug, group, home, insert_chart, integrations, payments, purchaseHistory, referAndEarn, settings, signout, switchUser, widgets } from "./assets";
+import { bug, group, home, insert_chart, payments, purchaseHistory, referAndEarn, settings, signout, switchUser, widgets } from "./assets";
 
 export const navMenu: TNavMenu[] = [
     {
@@ -24,13 +24,11 @@ export const navMenu: TNavMenu[] = [
     },
 ]
 
-// !------ These Icons were not provided in the figma
-// so I got them online, they won't look exactly as what's in the design ------!
 export const userProfileItems: TProfileItem[] = [
     {title: 'Settings', img: settings},
     {title: 'Purchase History', img: purchaseHistory},
     {title: 'Refer and Earn', img: referAndEarn},
-    {title: 'Integrations', img: integrations},
+    {title: 'Integrations', img: widgets},
     {title: 'Report Bug', img: bug},
     {title: 'Switch Account', img: switchUser},
     {title: 'Logout', img: signout}
