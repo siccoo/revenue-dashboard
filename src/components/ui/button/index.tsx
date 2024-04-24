@@ -1,4 +1,4 @@
-import React, { FC, ReactNode, MouseEventHandler } from 'react';
+import React, { ReactNode, MouseEventHandler } from 'react';
 import { buttonSize, buttonTheme, getIconSize } from './utils';
 
 interface ButtonProps {
@@ -21,8 +21,8 @@ const Button = ({
     className, size = 'md', iconSize = 'sm', 
     style, iconRight
 }: ButtonProps) => {
-    const iconElement: ReactNode = icon && <img src={`${icon}`} width={getIconSize(iconSize)} height={getIconSize(iconSize)} />;
-    const iconRightElement: ReactNode = iconRight && <img src={`${iconRight}`} width={getIconSize(iconSize)} height={getIconSize(iconSize)} />;
+    const iconElement: ReactNode = icon && <img src={`${icon}`} alt='' width={getIconSize(iconSize)} height={getIconSize(iconSize)} />;
+    const iconRightElement: ReactNode = iconRight && <img src={`${iconRight}`} alt='' width={getIconSize(iconSize)} height={getIconSize(iconSize)} />;
 
     return (
         <button

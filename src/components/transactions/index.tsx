@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from './header'
-import TransactionsList from './transactionsList'
+import Header from './header/index'
+import TransactionsList from './transactionsList/index'
 import { TFilter, TTransaction } from '../../types'
 import Text from '../ui/text'
 

@@ -1,6 +1,5 @@
-import React from 'react'
-import BalanceWithGraph from './balance-with-graph'
-import BalanceList from './balanceList'
+import BalanceWithGraph from './balance-with-graph/index'
+import BalanceList from './balanceList/index'
 import { TTransaction, TWallet } from '../../types'
 
 interface IProps {

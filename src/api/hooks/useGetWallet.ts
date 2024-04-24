@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useQuery } from 'react-query'
 import { getUser, getWallet } from '../utils';
 

@@ -3,7 +3,7 @@ import colors from '../../../utils/colors';
 import Text from '../text';
 import { checked, unchecked } from './assets';
 import { useCloseOnclickOutside } from '../../../hooks/useOutsideClickClose';
-import { TFilter, TFilterProps } from '../../../types';
+import { TFilter } from '../../../types';
 
 interface DropdownProps {
     options: string[];
